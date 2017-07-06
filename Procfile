@@ -1,0 +1,1 @@
+web: ./build/install/1617-2-LI41D-G2/bin/1617-2-LI41D-G2

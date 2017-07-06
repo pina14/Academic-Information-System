@@ -1,0 +1,82 @@
+@startuml
+package "pt.isel.ls" {
+    package "Commands" {
+            interface Command
+            class GetCourses
+            class GetCoursesAcr
+            class GetCoursesAcrClasses
+            class GetCoursesAcrClassesSem
+            class GetCoursesAcrClassesSemNum
+            class GetCoursesAcrClassesSemNumTeachers
+            class GetProgrammes
+            class GetProgrammesPid
+            class GetStudents
+            class GetStudentsNum
+            class GetTeachers
+            class GetTeachersNum
+            class GetTeachersNumClasses
+            class GetUsers
+            class PostCourses
+            class PostCoursesAcrClasses
+            class PostCoursesAcrClassesSemNumTeachers
+            class PostProgrammes
+            class PostProgrammesPidCourses
+            class PostStudents
+            class PostTeachers
+    }
+    Command <|.. GetCourses
+    Command <|.. GetCoursesAcr
+    Command <|.. GetCoursesAcrClasses
+    Command <|.. GetCoursesAcrClassesSem
+    Command <|.. GetCoursesAcrClassesSemNum
+    Command <|.. GetCoursesAcrClassesSemNumTeachers
+    Command <|.. GetProgrammes
+    Command <|.. GetProgrammesPid
+    Command <|.. GetStudents
+    Command <|.. GetStudentsNum
+    Command <|.. GetTeachers
+    Command <|.. GetTeachersNum
+    Command <|.. GetTeachersNumClasses
+    Command <|.. GetUsers
+    Command <|.. PostCourses
+    Command <|.. PostCoursesAcrClasses
+    Command <|.. PostCoursesAcrClassesSemNumTeachers
+    Command <|.. PostProgrammes
+    Command <|.. PostProgrammesPidCourses
+    Command <|.. PostStudents
+    Command <|.. PostTeachers
+
+    class App
+    class Node{
+        -String command
+        -boolean hasChildren
+    }
+    class Router{
+
+    }
+}
+
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml

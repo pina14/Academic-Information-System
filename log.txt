@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-03-29T23:06:30</date>
+  <millis>1490825190394</millis>
+  <sequence>0</sequence>
+  <logger>pt.isel.ls.Controller.App</logger>
+  <level>WARNING</level>
+  <class>pt.isel.ls.Controller.App</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>0</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-03-29T23:08:19</date>
+  <millis>1490825299691</millis>
+  <sequence>0</sequence>
+  <logger>pt.isel.ls.Controller.App</logger>
+  <level>WARNING</level>
+  <class>pt.isel.ls.Controller.App</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>0</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
